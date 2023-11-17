@@ -4,7 +4,7 @@
     "url": "https://www.custombuiltlandscaping.com/",
     "repo": "Private",
     "descriptionTitle": "A business site and portfolio, ",
-    "description": "integrating appointment scheduling and dynamic content while emphasizing a refined customer experience.",
+    "description": "integrating appointment scheduling and dynamic content to promote the services for a small business",
     "imageOptions": [],
     "images": [
       {
@@ -19,14 +19,14 @@
         "hover": "right",
         "h": "1200",
         "w": "556",
-        "url": "/img/msc-mock_stack/02.png"
+        "url": "/img/happy-pug_stack/02.png"
       },
       {
         "key": "mock-stack",
         "hover": "left",
         "h": "1200",
         "w": "556",
-        "url": "/img/msc-mock_stack/01.png"
+        "url": "/img/happy-pug_stack/01.png"
       }
     ],
     "stack": [
@@ -42,10 +42,10 @@
   },
   {
     "project": "Trip Advisor Research",
-    "url": "https://github.com/atlamors/portfolio",
+    "url": "https://github.com/ceiaram/TripAdvisorProject",
     "repo": "Public",
-    "descriptionTitle": "An open source portfolio",
-    "description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+    "descriptionTitle": "A data science research project",
+    "description": "focused on how consumers respond to hotels' sustainable efforts",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
@@ -57,13 +57,53 @@
       }
     ],
     "stack": [
-      { "key": "nextjs", "name": "Next.js", "type": "devicon" },
-      { "key": "react", "name": "React", "type": "devicon" },
-      { "key": "nodejs", "name": "Node.js", "type": "devicon" },
+      {
+        "key": "python",
+        "name": "Python/bs4/sklearn/NumPy/matplotlib",
+        "type": "devicon"
+      },
       { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
-      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-      { "key": "html5", "name": "HTML5", "type": "devicon" },
-      { "key": "css3", "name": "CSS3", "type": "devicon" },
+      { "key": "pandas", "name": "Pandas", "type": "devicon" },
+      { "key": "numpy", "name": "Numpy", "type": "devicon" },
+      { "key": "git", "name": "Git(Hub)", "type": "devicon" }
+    ]
+  },
+
+  {
+    "project": "Happy Pug",
+    "url": "https://play.google.com/store/apps/details?id=com.happypug.happy_pug&hl=en&gl=US",
+    "repo": "Private",
+    "descriptionTitle": "An Android app available on the Google Play",
+    "description": "created to provide transparency in dog food by filtering ingredients and delivering detailed results based on AAFCO standards and tailblazerspets.com",
+    "imageOptions": [{ "key": "size", "value": "large" }],
+    "images": [
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "1200",
+        "w": "556",
+        "url": "/img/happy-pug_stack/03.png"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "1200",
+        "w": "556",
+        "url": "/img/happy-pug_stack/02.png"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "left",
+        "h": "1200",
+        "w": "556",
+        "url": "/img/happy-pug_stack/01.png"
+      }
+    ],
+    "stack": [
+      { "key": "android", "name": "Andriod App", "type": "devicon" },
+      { "key": "dart", "name": "Dart", "type": "devicon" },
+      { "key": "firebase", "name": "Firebase", "type": "devicon" },
+      { "key": "google", "name": "Google Play", "type": "devicon" },
       { "key": "git", "name": "Git(Hub)", "type": "devicon" }
     ]
   }

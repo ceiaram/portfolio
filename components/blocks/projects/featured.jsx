@@ -149,7 +149,7 @@ const hoverLeft = {
     x: 0,
   },
   hover: {
-    x: -20,
+    x: -30,
   },
 };
 
@@ -158,6 +158,6 @@ const hoverRight = {
     x: 0,
   },
   hover: {
-    x: 20,
+    x: 30,
   },
 };
