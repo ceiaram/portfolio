@@ -51,7 +51,13 @@ export default function FeaturedProject({ content }, index) {
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
-            <h3 className="highlight">{project}</h3>
+            <button
+              onClick={() => window.open(content.url, "_blank")}
+              className={css.clickable}
+            >
+              <h3 className="highlight">{project}</h3>
+            </button>
+
             <span className={css.privateOr}>
               <i className="devicon-github-plain"></i>
               {repo}
@@ -71,7 +77,10 @@ export default function FeaturedProject({ content }, index) {
             />
           </div>
           <m.div variants={""} className={css.viewProject}>
-            <button onClick={() => window.open(content.url, "_blank")}>
+            <button
+              onClick={() => window.open(content.url, "_blank")}
+              className={css.clickable}
+            >
               <Icon icon={["fad", "arrow-right-to-bracket"]} />
             </button>
           </m.div>
@@ -149,7 +158,7 @@ const hoverLeft = {
     x: 0,
   },
   hover: {
-    x: -30,
+    x: -20,
   },
 };
 
@@ -158,6 +167,6 @@ const hoverRight = {
     x: 0,
   },
   hover: {
-    x: 30,
+    x: 20,
   },
 };

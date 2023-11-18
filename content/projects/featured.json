@@ -8,25 +8,11 @@
     "imageOptions": [],
     "images": [
       {
-        "key": "mock-stack",
+        "key": "website-stack",
         "hover": "right",
         "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/03.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "right",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/happy-pug_stack/02.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "left",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/happy-pug_stack/01.png"
+        "w": "2000",
+        "url": "/img/custom-built-landscaping.png"
       }
     ],
     "stack": [
@@ -49,22 +35,22 @@
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
-        "key": "portfolio",
+        "key": "research",
         "hover": "left",
-        "h": "797",
-        "w": "556",
-        "url": "/img/portfolio-mock_single.png"
+        "h": "556",
+        "w": "797",
+        "url": "/img/trip-advisor-research.png"
       }
     ],
     "stack": [
       {
         "key": "python",
-        "name": "Python/bs4/sklearn/NumPy/matplotlib",
+        "name": "Python/bs4/sklearn/matplotlib",
         "type": "devicon"
       },
       { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
       { "key": "pandas", "name": "Pandas", "type": "devicon" },
-      { "key": "numpy", "name": "Numpy", "type": "devicon" },
+      { "key": "numpy", "name": "NumPy", "type": "devicon" },
       { "key": "git", "name": "Git(Hub)", "type": "devicon" }
     ]
   },
@@ -74,25 +60,25 @@
     "url": "https://play.google.com/store/apps/details?id=com.happypug.happy_pug&hl=en&gl=US",
     "repo": "Private",
     "descriptionTitle": "An Android app available on the Google Play",
-    "description": "created to provide transparency in dog food by filtering ingredients and delivering detailed results based on AAFCO standards and tailblazerspets.com",
+    "description": "created to provide transparency in dog food products by filtering ingredients and delivering detailed results based on AAFCO standards and tailblazerspets.com",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
-        "key": "mock-stack",
+        "key": "mobile-app",
         "hover": "right",
         "h": "1200",
         "w": "556",
         "url": "/img/happy-pug_stack/03.png"
       },
       {
-        "key": "mock-stack",
+        "key": "mobile-app",
         "hover": "right",
         "h": "1200",
         "w": "556",
         "url": "/img/happy-pug_stack/02.png"
       },
       {
-        "key": "mock-stack",
+        "key": "mobile-app",
         "hover": "left",
         "h": "1200",
         "w": "556",
