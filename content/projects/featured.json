@@ -86,7 +86,8 @@
       }
     ],
     "stack": [
-      { "key": "android", "name": "Andriod App", "type": "devicon" },
+      { "key": "android", "name": "Andriod", "type": "devicon" },
+      { "key": "flutter", "name": "Flutter", "type": "devicon" },
       { "key": "dart", "name": "Dart", "type": "devicon" },
       { "key": "firebase", "name": "Firebase", "type": "devicon" },
       { "key": "google", "name": "Google Play", "type": "devicon" },
