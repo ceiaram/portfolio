@@ -51,6 +51,7 @@
   }
 
   .viewProject {
+    height: 85px;
     svg {
       height: 1.5rem;
       color: var(--primary);
@@ -61,7 +62,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 0.5rem;
 
     a {
       flex-grow: 0;
@@ -118,17 +119,18 @@
     overflow: hidden;
     border-radius: 2rem;
     height: calc(100% - 6rem);
-    width: calc(100% + 9rem);
+    width: calc(100% + 6rem);
     right: 0;
     bottom: 0;
 
     > div > div {
       > span {
         position: absolute !important;
-        right: 4rem;
+        right: 3rem;
 
         img {
-          width: calc(556px / 1.25) !important;
+          // width: calc(556px / 1.25) !important;
+          width: calc(556px / 1.4) !important;
         }
       }
     }
@@ -305,7 +307,7 @@
       .imageAnimationContainer {
         > div > div {
           > span {
-            right: 2rem;
+            right: 5rem;
           }
         }
       }
@@ -315,7 +317,7 @@
       .imageAnimationContainer {
         > div > div {
           > span {
-            right: 0rem;
+            right: 0.9rem;
           }
         }
       }
