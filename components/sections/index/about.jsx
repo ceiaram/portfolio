@@ -1,73 +1,74 @@
 // Core packages
-import Image from 'next/image'
+import Image from "next/image";
 
 // Section structure
-import Section from '../../structure/section';
-import Container from '../../structure/container';
+import Section from "../../structure/section";
+import Container from "../../structure/container";
 
 // Section general blocks
-import SectionTitle from '../../blocks/section.title.block'
-import SectionGridBg from '../../blocks/section.grid.block'
+import SectionTitle from "../../blocks/section.title.block";
+import SectionGridBg from "../../blocks/section.grid.block";
 
 // Section specific blocks
-import BadgesBlock from '../../blocks/about.badges.block'
-import CopyBlock from '../../blocks/about.copy.block'
+import BadgesBlock from "../../blocks/about.badges.block";
+import CopyBlock from "../../blocks/about.copy.block";
 
 // Section scss
-import about from '../../../styles/sections/index/about.module.scss';
+import about from "../../../styles/sections/index/about.module.scss";
 
 /**
  * Section: About
  * An overview of yourself.
  * Highlight your top level attributes and disciplines.
- * 
+ *
  * @returns {jsx} <About />
  */
 export default function About() {
-	return (
-		<Section classProp={about.section}>	
-			<Container spacing={['verticalXXXLrg']}>
-				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
-				/>
-				<section className={about.content}>
-					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
-					</div>
-					<div className={about.copy} >
-						<CopyBlock 
-							title="Softskills that pay the bills"
-							containerClass={about.container}
-							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
-						/>
-						<BadgesBlock 
-							title="Reasearch and planning" 
-							containerClass={about.container}
-							list={methods} 
-							fullContainer="fullContainer"
-							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
-							headerIcon={`${about.icon}`}
-						/>
-					</div>
-				</section>	
-			</Container>
-		</Section>
-	)
+  return (
+    <Section classProp={about.section}>
+      <Container spacing={["verticalXXXLrg"]}>
+        <SectionTitle
+          title="About Me"
+          preTitle="Synopsis"
+          subTitle="With a diverse skill set that includes full stack web development, data science, machine learning, mobile and game development; I am a well-rounded developer who loves to learn new concepts in computer science."
+        />
+        <section className={about.content}>
+          <div className={about.image}>
+            <img src="/img/profile-photo.jpg" alt="Nelson family photo" />
+            {/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+          </div>
+          <div className={about.copy}>
+            <CopyBlock
+              title="Softskills and hobbies"
+              containerClass={about.container}
+              iconClass={about.icon}
+              icon={["fat", "ear-listen"]}
+              copy="In addition to my technical expertise, I also have strong leadership, passion for learning, and multitasking skills—honed through my experience as a freelancer, mentor for women in computer science, team lead for the mobile development team and undergrad research. Outside of computer science, I enjoy staying active by riding my bmx bike and taking care of my high maintenance pug. I also enjoy playing my ps4 for leisure and play a variety of games such as Dying Light 2, Battlefield 2042, Zombie Army 4 and more. I am confident in my ability to bring passion and value to any project that I work on."
+            />
+            <BadgesBlock
+              title="Learning and programming"
+              containerClass={about.container}
+              list={methods}
+              fullContainer="fullContainer"
+              block="methods"
+              icon="computer-mouse"
+              copy="I choose computer science due to the endless material you can learn, build and create, which keeps the subject fun and interesting. My favorite part of creating is learning new skills and programming, which means learning as I go and that is all it takes to create something new."
+              //invertedColor="inveryouedColor"
+              headerIcon={`${about.icon}`}
+            />
+          </div>
+        </section>
+      </Container>
+    </Section>
+  );
 }
 
-const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
-]
+const methods = [
+  //file-binary
+  { key: "code-simple", name: "LeetCode/NeetCode", type: "fad" },
+  { key: "microchip-ai", name: "Kaggle", type: "fad" },
+  { key: "brain-circuit", name: "learnpytorch.io", type: "fad" },
+  { key: "display", name: "YouTube", type: "far" },
+  { key: "laptop-code", name: "freeCodeCamp", type: "fad" },
+  { key: "message-question", name: "Stack Overflow", type: "fad" },
+];
