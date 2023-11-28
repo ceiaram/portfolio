@@ -53,7 +53,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Technologies I love to build with"
-              copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+              copy="I deeply enjoy solving problems through code. From the back-end configuring APIs to front-end web development to mobile all the way to machine learning and more. I'm confident in my ability to tackle any project I choose to undertake."
               list={tech}
               block="tech"
               fullContainer="fullContainer"
@@ -78,31 +78,38 @@ export default function Technical() {
 }
 
 const software = [
-  { key: "photoshop", name: "Photoshop", type: "devicon" },
-  { key: "illustrator", name: "Illustrator", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
+  { key: "flutter", name: "Flutter", type: "devicon" },
   { key: "vscode", name: "VSCode", type: "devicon" },
+  { key: "visualstudio", name: "Visual Studio", type: "devicon" },
+  { key: "java", name: "Eclipse", type: "devicon" },
   { key: "mailbox", name: "Postman", type: "fas" },
-  { key: "computer-mouse", name: "Click Up", type: "fas" },
-  { key: "list-music", name: "Ableton", type: "fas" },
-  { key: "aftereffects", name: "After Effects", type: "devicon" },
-  { key: "premierepro", name: "Premiere Pro", type: "devicon" },
+  { key: "cube", name: "VirtualBox", type: "fas" },
+  { key: "ubuntu", name: "Ubuntu", type: "devicon" },
+  { key: "github", name: "GitHub", type: "devicon" },
+  // { key: "unity", name: "Unity", type: "devicon" },
+  // { key: "blender", name: "Blender", type: "devicon" },
 ];
 
 const tech = [
   { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "typescript", name: "TypeScript", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "jquery", name: "jQuery", type: "devicon" },
-  { key: "php", name: "PHP", type: "devicon" },
-  { key: "wordpress", name: "WordPress", type: "devicon" },
-  { key: "woocommerce", name: "WooCommerce", type: "devicon" },
-  { key: "google", name: "GA4/GTM", type: "devicon" },
+  { key: "python", name: "Python", type: "devicon" },
+  { key: "flask", name: "Flask", type: "devicon" },
+  { key: "pytorch", name: "PyTorch", type: "devicon" },
+  { key: "dart", name: "Dart", type: "devicon" },
+  { key: "cplusplus", name: "C++", type: "devicon" },
+  { key: "csharp", name: "C#", type: "devicon" },
+  { key: "java", name: "Java", type: "devicon" },
   { key: "html5", name: "HTML5", type: "devicon" },
   { key: "css3", name: "CSS3", type: "devicon" },
-  { key: "sass", name: "SASS", type: "devicon" },
+  { key: "tailwindcss", name: "Tailwind CSS", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
-  { key: "mysql", name: "MySQL", type: "devicon" },
   { key: "mongodb", name: "MongoDB", type: "devicon" },
+  { key: "firebase", name: "Firebase", type: "devicon" },
+  { key: "nextjs", name: "Vercel", type: "devicon" },
+  { key: "amazonwebservices", name: "AWS", type: "devicon" },
 ];

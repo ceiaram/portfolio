@@ -11,8 +11,6 @@ import { fad } from "@fortawesome/pro-duotone-svg-icons";
 import { far } from "@fortawesome/pro-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
-import { faSquareYoutube } from "@fortawesome/free-brands-svg-icons";
-
 // Load icons into
 library.add(fat, fal, fas, fad, far, fab);
 
