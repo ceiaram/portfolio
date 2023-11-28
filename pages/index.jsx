@@ -17,7 +17,7 @@ export default function HomePage() {
       <Hero />
       <Looking />
       <FeaturedProjects />
-      {/* Switched technical and about components */}
+      {/* Switched technical and about components..*/}
       <Technical />
       <About />
       {/* <Career /> */}
