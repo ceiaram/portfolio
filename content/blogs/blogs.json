@@ -1,0 +1,41 @@
+[
+  {
+    "thumbnail": "/img/blogs/women-in-ml.png",
+    "title": "Women in Machine Learning",
+    "pubDate": "Mon Nov 27 2023",
+    "link": "https://aidevelopers.withgoogle.com/events/women-in-machine-learning-2022",
+    "author": "Ceiara Madrigal",
+    "blogContent": "I decided to join a symposium dedicated to women in ML. Recently I've been very intresting in ML, so I am excited to learn new some tools and topics.",
+    "categories": ["machine learning", "artificial intelligence"]
+  },
+
+  {
+    "thumbnail": "/img/blogs/happy-pug-graphic.png",
+    "title": "Happy Pug Update",
+    "pubDate": "Friday Nov 17 2023",
+    "link": "https://play.google.com/store/apps/details?id=com.happypug.happy_pug&hl=en&gl=US",
+    "author": "Ceiara Madrigal",
+    "blogContent": "I added some new ingredients and reinitialise the Happy Pug database. I am still in love with the logo and proud of myself for creating a fully functioning app that is useful for other dog parents. You can download Happy Pug on the Google Play Store by clicking the link!",
+    "categories": ["android app", "mobile development", "Google Play Store"]
+  },
+
+  {
+    "thumbnail": "/img/blogs/freelance-project.png",
+    "title": "Freelance Project Completed",
+    "pubDate": "Thursday Nov 16 2023",
+    "link": "https://www.custombuiltlandscaping.com/",
+    "author": "Ceiara Madrigal",
+    "blogContent": "I've finished my first freelance project and it was a great learning experience. I am thrilled on how it turned out and it makes me happy that that client also feels this way. Now I just need to maintain the site and update necessary content.",
+    "categories": ["freelance", "full stack web development"]
+  },
+
+  {
+    "thumbnail": "/img/blogs/bearly-alive.png",
+    "title": "Top-Down Looter Shooter Game",
+    "pubDate": "Friday Oct 27 2023",
+    "link": "https://sicfran774.itch.io/bearly-alive",
+    "author": "Ceiara Madrigal",
+    "blogContent": "Here is a throw back to a Unity game that I've made with 5 other students. I remember it was one of the best teams I've worked with and because of that we created such a cool, fun game within an extremely short time period. We were able to create 5 different abilities and upgrades. To play and learn more about the game I helped make create on the link and enjoy!",
+    "categories": ["game development", "unity", "team-work"]
+  }
+]
