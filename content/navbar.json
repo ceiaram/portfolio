@@ -5,11 +5,12 @@
   },
 
   {
-    "url": "/blogs",
-    "title": "Blogs"
-  },
-  {
     "url": "/projects",
     "title": "Projects"
+  },
+
+  {
+    "url": "/blogs",
+    "title": "Blogs"
   }
 ]

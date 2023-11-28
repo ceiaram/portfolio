@@ -53,7 +53,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Technologies I love to build with"
-              copy="I deeply enjoy solving problems through code. From the back-end configuring APIs to front-end web development to mobile all the way to machine learning and more. I'm confident in my ability to tackle any project I choose to undertake."
+              copy="I deeply enjoy solving problems through code. From configuring APIs in the back-end to crafting front-end web development, extending to mobile applications and diving into the realms of machine learning, among other areas. I am confident in my ability to tackle and excel in any project I undertake."
               list={tech}
               block="tech"
               fullContainer="fullContainer"

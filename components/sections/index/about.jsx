@@ -30,7 +30,7 @@ export default function About() {
         <SectionTitle
           title="About Me"
           preTitle="Synopsis"
-          subTitle="With a diverse skill set that includes full stack web development, data science, machine learning, mobile and game development; I am a well-rounded developer who loves to learn new concepts in computer science."
+          subTitle="With a diverse skill set that includes full stack web development, data science, machine learning and more; I am a well-rounded developer who is ready to take on challenging projects and contribute meaningfully to the field."
         />
         <section className={about.content}>
           <div className={about.image}>
@@ -52,7 +52,7 @@ export default function About() {
               fullContainer="fullContainer"
               block="methods"
               icon="computer-mouse"
-              copy="I choose computer science due to the endless material you can learn, build and create, which keeps the subject fun and interesting. My favorite part of creating is learning new skills and programming, which means learning as I go and that is all it takes to create something new."
+              copy="I choose computer science due to the endless material you can learn, build and create, which keeps the subject fun and interesting. My favorite part of creating is learning new skills and programming, which means learning as I go and that is all it takes to create something new. Here are some of the resources I use to continue learning."
               //invertedColor="inveryouedColor"
               headerIcon={`${about.icon}`}
             />
@@ -65,10 +65,12 @@ export default function About() {
 
 const methods = [
   //file-binary
-  { key: "code-simple", name: "LeetCode/NeetCode", type: "fad" },
+  { key: "code", name: "LeetCode", type: "fad" },
+  { key: "code", name: "NeetCode", type: "fad" },
   { key: "microchip-ai", name: "Kaggle", type: "fad" },
   { key: "brain-circuit", name: "learnpytorch.io", type: "fad" },
   { key: "display", name: "YouTube", type: "far" },
   { key: "laptop-code", name: "freeCodeCamp", type: "fad" },
+  { key: "head-side-brain", name: "LinkedIn Learning", type: "fad" },
   { key: "message-question", name: "Stack Overflow", type: "fad" },
 ];

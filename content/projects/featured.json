@@ -4,7 +4,7 @@
     "url": "https://www.custombuiltlandscaping.com/",
     "repo": "Private",
     "descriptionTitle": "A business site and portfolio, ",
-    "description": "integrating appointment scheduling and dynamic content to promote the services for a small business",
+    "description": "integrating appointment scheduling and dynamic content to promote the services of a small business",
     "imageOptions": [],
     "images": [
       {
@@ -31,7 +31,7 @@
     "url": "https://github.com/ceiaram/TripAdvisorProject",
     "repo": "Public",
     "descriptionTitle": "A data science research project",
-    "description": "focused on how consumers respond to hotels' sustainable efforts",
+    "description": "that involved web scarping 587 hotels' data and 300,809 consumer reviews and used machine learning and natural language processing techniques",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
@@ -59,8 +59,8 @@
     "project": "Happy Pug",
     "url": "https://play.google.com/store/apps/details?id=com.happypug.happy_pug&hl=en&gl=US",
     "repo": "Private",
-    "descriptionTitle": "An Android app available on the Google Play",
-    "description": "inspired by my pug Winston to provide transparency in dog food products by filtering ingredients and delivering detailed results",
+    "descriptionTitle": "An Android app available on the Google Play Store",
+    "description": "that provides transparency in dog food products by filtering ingredients and delivering detailed results inspired by my pug Winston",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
