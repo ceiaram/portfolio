@@ -99,6 +99,7 @@ const tech = [
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "python", name: "Python", type: "devicon" },
   { key: "flask", name: "Flask", type: "devicon" },
+  { key: "selenium", name: "Selenium", type: "devicon" },
   { key: "pytorch", name: "PyTorch", type: "devicon" },
   { key: "dart", name: "Dart", type: "devicon" },
   { key: "cplusplus", name: "C++", type: "devicon" },

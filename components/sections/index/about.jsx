@@ -43,7 +43,7 @@ export default function About() {
               containerClass={about.container}
               iconClass={about.icon}
               icon={["fat", "ear-listen"]}
-              copy="In addition to my technical expertise, I also have strong leadership, passion for learning, and multitasking skills—honed through my experience as a freelancer, mentor for women in computer science, team lead for the mobile development team and undergrad research. Outside of computer science, I enjoy staying active by riding my bmx bike and taking care of my high maintenance pug. I also enjoy playing my ps4 for leisure and play a variety of games such as Dying Light 2, Battlefield 2042, Zombie Army 4 and more. I am confident in my ability to bring passion and value to any project that I work on."
+              copy="In addition to my technical expertise, I also have strong leadership, passion for learning, and multitasking skills—honed through my experience as a freelancer, mentor for women in computer science, team lead for the mobile development team and undergrad research. Outside of computer science, I enjoy staying active by riding my bike, taking care of my high maintenance pug and for leisure I play a collection of games on my PS4. I am confident in my ability to bring passion and value to any project that I work on."
             />
             <BadgesBlock
               title="Learning and programming"
